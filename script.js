@@ -1,3 +1,3 @@
 function changePath() {
-    location.href = 'https://mck.survivo.tk/index.html'
+    location.href = 'https://mck.survivo.tk/'
 }
