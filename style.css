@@ -1,0 +1,105 @@
+.title {
+    font-family: "press Start 2P", system-ui;
+    font-size: 3rem;
+    text-align: center;
+    background-color: rgb(136, 136, 136);
+    padding: 20px;
+    margin-top: 2rem;
+    border-bottom: 2px solid orange;
+    border-radius: 10px;
+    transition: 1s;
+    border-color: #323232;
+    width: 100%;
+
+}
+
+.title:hover {
+    cursor: pointer;
+    transform: scale(1.02);   
+}
+.randtxt {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(136, 136, 136);
+    border-radius: 10px;
+    padding: 15px;
+    border-color: black;
+    border-style: dashed;
+    font-weight: bold;
+    font-family: "consolas", system-ui;
+    transition: 1s;
+}
+.randtxt:hover {
+  transform: scale(1.02);
+}
+.intro {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(136, 136, 136);
+  border-radius: 10px;
+  padding: 15px;
+  border-color: black;
+  border-style: dashed;
+  font-weight: bold;
+  font-family: "consolas", system-ui;
+  transition: 1s;
+}
+.intro:hover {
+  transform: scale(1.02);
+}
+body {
+    background-color: #323232;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(136, 136, 136);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    transition: 1s;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 12px;
+    z-index: 1;
+    transition: 1s;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    transition: 1s;
+  }
+.dropdown-content a:hover{
+    background-color: rgb(30, 218, 161);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.dropdown:hover .dropdown-content {
+    transition: 1s;
+    display: block;
+    cursor: pointer;
+  }
+a {
+  text-decoration: none;
+}
+.pressme {
+  font-size: 14px;
+}
+.mclogo {
+  
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
