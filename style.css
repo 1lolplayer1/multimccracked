@@ -4,12 +4,13 @@
     text-align: center;
     background-color: rgb(136, 136, 136);
     padding: 20px;
-    margin-top: 2rem;
+    margin-top: 5rem;
     border-bottom: 2px solid orange;
     border-radius: 10px;
     transition: 1s;
     border-color: #323232;
     width: 100%;
+    top: 11%;
 
 }
 
@@ -48,12 +49,13 @@
   transform: scale(1.02);
 }
 body {
-    background-color: #323232;
+    background: url(https://e1.pxfuel.com/desktop-wallpaper/628/934/desktop-wallpaper-set-of-perfectly-aligned-firewatch-amoled-for-your-amoled-mobile.jpg);
+    overflow: hidden;
 }
 .dropdown {
     position: relative;
     display: inline-block;
-    background-color: rgb(136, 136, 136);
+    background-color: rgb(76, 127, 194);
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 1rem;
@@ -62,8 +64,11 @@ body {
     padding-right: 20px;
     padding-left: 20px;
   }
-  
+.dropdown:hover {
+  transform: scale(1.02);
+}
 .dropdown-content {
+    transform: scale(1.01);
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -84,6 +89,7 @@ body {
     background-color: rgb(30, 218, 161);
     cursor: pointer;
     transition: 0.5s;
+    transform: scale(1.015);
 }
 .dropdown:hover .dropdown-content {
     transition: 1s;
@@ -97,9 +103,32 @@ a {
   font-size: 14px;
 }
 .mclogo {
-  
   position: absolute;
-  top: 10%;
+  top: 12%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  width: 75%;
+  height: auto;
+  transform: translate(-50%, -42%);
+}
+@media (min-width: 300px) {
+  main {
+    flex-wrap: nowrap;
+  }
+
+  div {
+    flex-basis: 33%;
+  }
+}
+main {
+  background: #d9d7d5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+div {
+  background: #767775;
+  flex-basis: 100%;
+  margin-bottom: 0.5rem;
 }
